@@ -1,1 +1,1 @@
-# paper-2026-Ultra-High-rate-State-Estimation
+# Paper-2026-Ultra-High-rate-State-Estimation
