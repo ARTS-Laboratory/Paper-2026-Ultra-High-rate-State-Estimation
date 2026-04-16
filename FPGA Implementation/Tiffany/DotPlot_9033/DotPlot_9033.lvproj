@@ -86,7 +86,7 @@
 				<Property Name="Mode" Type="Int">0</Property>
 				<Property Name="NI.LV.FPGA.CompileConfigString" Type="Str">cRIO-9033/Clk40/falsefalseFPGA_EXECUTION_MODEFPGA_TARGETFPGA_TARGET_CLASSCRIO_9033FPGA_TARGET_FAMILYKINTEX7TARGET_TYPEFPGA</Property>
 				<Property Name="NI.LV.FPGA.Version" Type="Int">8</Property>
-				<Property Name="niFpga_TopLevelVIID" Type="Path">/C/Users/TYU/Downloads/Target2.vi</Property>
+				<Property Name="niFpga_TopLevelVIID" Type="Path">/C/Users/TYU/Documents/LabVIEW Projects/cRIO-9033/DotPlot_9033/Target3.vi</Property>
 				<Property Name="Resource Name" Type="Str">RIO0</Property>
 				<Property Name="Target Class" Type="Str">cRIO-9033</Property>
 				<Property Name="Top-Level Timing Source" Type="Str">40 MHz Onboard Clock</Property>
