@@ -14,3 +14,7 @@ V0.4
 
 &#x20; New attempt
 
+V0.4.1 
+
+&#x20; Cr has output but no FIFO C output
+
