@@ -14,7 +14,11 @@ V0.4
 
 &#x20; New attempt
 
-V0.4.1 
+V0.4.1
 
 &#x20; Cr has output but no FIFO C output
+
+V0.4.2
+
+&#x20; Take out the Matrix Multiply Node and just try to get the array values through
 
