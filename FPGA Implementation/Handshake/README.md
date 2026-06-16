@@ -28,5 +28,5 @@ V0.4.3
 
 V0.4.4
 
-&#x20; Version 4.1 but without fifo attempt.
+&#x20; Version 4.1 but without fifo attempt. Current version working on.
 
