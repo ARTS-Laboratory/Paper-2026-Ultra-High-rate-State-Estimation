@@ -22,3 +22,11 @@ V0.4.2
 
 &#x20; Take out the Matrix Multiply Node and just try to get the array values through
 
+V0.4.3
+
+&#x20; Version 4.2 but without fifo attempt.
+
+V0.4.4
+
+&#x20; Version 4.1 but without fifo attempt.
+
