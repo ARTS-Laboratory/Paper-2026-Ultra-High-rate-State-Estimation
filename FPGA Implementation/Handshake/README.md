@@ -34,8 +34,8 @@
 * Working for 2x1x2
 
 ## V0.4.6
-* Gaol - get 1x2x1
+* Goal - get 1x2x1
 
-* ## V0.4.7
-* Gaol - get 1x2x2
+## V0.4.7
+* Goal - get 1x2x2
 
