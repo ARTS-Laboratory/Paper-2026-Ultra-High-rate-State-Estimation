@@ -28,3 +28,14 @@
 * &#x20; Version 4.1 but without fifo attempt. 
 * have working for 2x1x2
 
+## V0.4.5
+* Cleaned up version of V0.4.4
+* Slidedeck cleand up
+* Working for 2x1x2
+
+## V0.4.6
+* Gaol - get 1x2x1
+
+* ## V0.4.7
+* Gaol - get 1x2x2
+
