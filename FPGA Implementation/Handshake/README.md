@@ -1,41 +1,53 @@
 # Handshake
+
 * This code uses LabVIEW Version 2025 Q3
 
 ## V0.1
-*
+
+* 
 
 ## V0.2
 
 ## V0.3
+
 * &#x20; Current version working on
 
 ## V0.3.1
+
 * &#x20; Original copy of V0.3, handshaking not working, fixed timeout error. Use to copy over if V0.3 stops working.
 
 ## V0.4
+
 * &#x20; New attempt
 
 ## V0.4.1
+
 * &#x20; Cr has output but no FIFO C output
 
 ## V0.4.2
+
 * &#x20; Take out the Matrix Multiply Node and just try to get the array values through
 
 ## V0.4.3
+
 * &#x20; Version 4.2 but without fifo attempt.
 
 ## V0.4.4
-* &#x20; Version 4.1 but without fifo attempt. 
+
+* &#x20; Version 4.1 but without fifo attempt.
 * have working for 2x1x2
 
 ## V0.4.5
+
 * Cleaned up version of V0.4.4
 * Slidedeck cleand up
 * Working for 2x1x2
 
 ## V0.4.6
-* Goal - get 1x2x1
+
+* Working for 1x2x1
 
 ## V0.4.7
-* Goal - get 1x2x2
+
+* Working 1x2x2 only if the 2x2 matrix rows are the same e.g. \[3,6;3,6].
 
