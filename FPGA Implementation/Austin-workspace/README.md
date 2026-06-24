@@ -26,3 +26,4 @@
 ## V0.4.7-AD-7
 * a [4x4]*[4x1]
 * had to change it to 3 cycles for matrix, cycles/matrix
+* Link to GPT chat if it helps https://chatgpt.com/share/e/6a3c3cf1-ba78-832f-9ba4-6abf94dc33d2 
