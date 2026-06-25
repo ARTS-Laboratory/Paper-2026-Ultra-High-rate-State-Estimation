@@ -11,10 +11,10 @@ A = [1 2 3 4;
 B = [1;
      2;
      3; 
-     4];          % 3x1 input vector
+     4];          % 4x1 input vector
 
 
-C = A * B;        % 3x1 output vector
+C = A * B;        % 4x1 output vector
 
 
 disp(C)
