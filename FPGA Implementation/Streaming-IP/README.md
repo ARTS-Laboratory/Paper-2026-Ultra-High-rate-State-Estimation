@@ -1,5 +1,5 @@
-# Handshake
-
+# Streaming-IP
+* Implements the MLP forward pass using the NI/Xilinx Linear Algebra Matrix Multiply IP core. Data is streamed into the IP using ready/valid handshaking, allowing the vendor-optimized hardware to perform the matrix-vector multiplication.
 * This code uses LabVIEW Version 2025 Q3
 
 ## V0.1
