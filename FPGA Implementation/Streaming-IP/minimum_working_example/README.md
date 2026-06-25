@@ -1,4 +1,4 @@
-# Austin's Workspace
+# Minimum working example (MWE)
 
 
 ## V0.4.7-AD-1
