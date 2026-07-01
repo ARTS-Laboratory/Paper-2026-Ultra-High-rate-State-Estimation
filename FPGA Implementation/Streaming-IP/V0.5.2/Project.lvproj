@@ -80,7 +80,7 @@
 				<Property Name="Mode" Type="Int">0</Property>
 				<Property Name="NI.LV.FPGA.CompileConfigString" Type="Str">cRIO-9033/Clk40/falsefalseFPGA_EXECUTION_MODEFPGA_TARGETFPGA_TARGET_CLASSCRIO_9033FPGA_TARGET_FAMILYKINTEX7TARGET_TYPEFPGA</Property>
 				<Property Name="NI.LV.FPGA.Version" Type="Int">8</Property>
-				<Property Name="niFpga_TopLevelVIID" Type="Path">/C/Users/TYU/Documents/GitHub/Paper-2026-Ultra-High-rate-State-Estimation/FPGA Implementation/Streaming-IP/V0.5.0/Target.vi</Property>
+				<Property Name="niFpga_TopLevelVIID" Type="Path">/C/Users/TYU/Documents/GitHub/Paper-2026-Ultra-High-rate-State-Estimation/FPGA Implementation/Streaming-IP/V0.5.2/Target.vi</Property>
 				<Property Name="Resource Name" Type="Str">RIO0</Property>
 				<Property Name="Target Class" Type="Str">cRIO-9033</Property>
 				<Property Name="Top-Level Timing Source" Type="Str">40 MHz Onboard Clock</Property>
@@ -165,7 +165,7 @@
 				<Item Name="Target.vi" Type="VI" URL="../Target.vi">
 					<Property Name="configString.guid" Type="Str">{6797993B-7368-4B32-9BD7-5972578BAEEC}resource=/Scan Clock;0;ReadMethodType=bool{86A7B415-EC1A-4CE5-993E-287C09B1D695}ResourceName=40 MHz Onboard Clock;TopSignalConnect=Clk40;ClockSignalName=Clk40;MinFreq=40000000.000000;MaxFreq=40000000.000000;VariableFreq=0;NomFreq=40000000.000000;PeakPeriodJitter=250.000000;MinDutyCycle=50.000000;MaxDutyCycle=50.000000;Accuracy=100.000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427E;{A441AB0E-D7B2-4487-AA8F-1DA052ADC291}resource=/System Reset;0;ReadMethodType=bool;WriteMethodType=bool{B9DBF0AA-FB1A-4F6D-83FC-F9FA6AC756E5}resource=/Chassis Temperature;0;ReadMethodType=i16{CBF76E80-3493-4135-8B80-73FD850DF428}resource=/Sleep;0;ReadMethodType=bool;WriteMethodType=bool{EF740E32-A081-49EA-94B8-E44E8B7573D4}NumberOfSyncRegistersForReadInProject=0;resource=/USER Push Button;0;ReadMethodType=bool{F28E007C-4724-4D4F-BE40-ADCFD589E134}resource=/USER FPGA LED;0;ReadMethodType=u8;WriteMethodType=u8cRIO-9033/Clk40/falsefalseFPGA_EXECUTION_MODEFPGA_TARGETFPGA_TARGET_CLASSCRIO_9033FPGA_TARGET_FAMILYKINTEX7TARGET_TYPEFPGA/[rSeriesConfig.Begin][rSeriesConfig.End]</Property>
 					<Property Name="configString.name" Type="Str">40 MHz Onboard ClockResourceName=40 MHz Onboard Clock;TopSignalConnect=Clk40;ClockSignalName=Clk40;MinFreq=40000000.000000;MaxFreq=40000000.000000;VariableFreq=0;NomFreq=40000000.000000;PeakPeriodJitter=250.000000;MinDutyCycle=50.000000;MaxDutyCycle=50.000000;Accuracy=100.000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427E;Chassis Temperatureresource=/Chassis Temperature;0;ReadMethodType=i16cRIO-9033/Clk40/falsefalseFPGA_EXECUTION_MODEFPGA_TARGETFPGA_TARGET_CLASSCRIO_9033FPGA_TARGET_FAMILYKINTEX7TARGET_TYPEFPGA/[rSeriesConfig.Begin][rSeriesConfig.End]Scan Clockresource=/Scan Clock;0;ReadMethodType=boolSleepresource=/Sleep;0;ReadMethodType=bool;WriteMethodType=boolSystem Resetresource=/System Reset;0;ReadMethodType=bool;WriteMethodType=boolUSER FPGA LEDresource=/USER FPGA LED;0;ReadMethodType=u8;WriteMethodType=u8USER Push ButtonNumberOfSyncRegistersForReadInProject=0;resource=/USER Push Button;0;ReadMethodType=bool</Property>
-					<Property Name="NI.LV.FPGA.InterfaceBitfile" Type="Str">C:\Users\TYU\Documents\GitHub\Paper-2026-Ultra-High-rate-State-Estimation\FPGA Implementation\Handshake\V0.4.5\FPGA Bitfiles\project_FPGATarget_Target_nbzalwn5Oos.lvbitx</Property>
+					<Property Name="NI.LV.FPGA.InterfaceBitfile" Type="Str">C:\Users\TYU\Documents\GitHub\Paper-2026-Ultra-High-rate-State-Estimation\FPGA Implementation\Streaming-IP\V0.5.2\FPGA Bitfiles\project_FPGATarget_Target_lnFYviRo1u8.lvbitx</Property>
 				</Item>
 				<Item Name="Dependencies" Type="Dependencies"/>
 				<Item Name="Build Specifications" Type="Build">
@@ -197,6 +197,8 @@
 						<Property Name="Comp.Xilinx.UseRecommended" Type="Bool">true</Property>
 						<Property Name="DefaultBuildSpec" Type="Bool">true</Property>
 						<Property Name="DestinationDirectory" Type="Path">FPGA Bitfiles</Property>
+						<Property Name="NI.LV.FPGA.LastCompiledBitfilePath" Type="Path">/C/Users/TYU/Documents/GitHub/Paper-2026-Ultra-High-rate-State-Estimation/FPGA Implementation/Streaming-IP/V0.5.2/FPGA Bitfiles/project_FPGATarget_Target_lnFYviRo1u8.lvbitx</Property>
+						<Property Name="NI.LV.FPGA.LastCompiledBitfilePathRelativeToProject" Type="Path">FPGA Bitfiles/project_FPGATarget_Target_lnFYviRo1u8.lvbitx</Property>
 						<Property Name="ProjectPath" Type="Path">/C/Users/TYU/Documents/GitHub/Paper-2026-Ultra-High-rate-State-Estimation/FPGA Implementation/Streaming-IP/V0.5.0/Project.lvproj</Property>
 						<Property Name="RelativePath" Type="Bool">true</Property>
 						<Property Name="RunWhenLoaded" Type="Bool">false</Property>
