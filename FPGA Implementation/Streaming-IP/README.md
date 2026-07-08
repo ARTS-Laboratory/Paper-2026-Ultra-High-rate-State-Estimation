@@ -72,3 +72,10 @@
 * A working 10-5-5-2 MLP on the FPGA
 * For Loop doesn't work inside of SCTL, instead replaced with index array and build array.
 
+## V0.5.3
+
+* A working 128-32-16-8-2 MLP on the FPGA in simulation
+* Failed to compile, timing error.
+
+
+
