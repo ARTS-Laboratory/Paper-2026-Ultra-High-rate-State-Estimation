@@ -80,7 +80,7 @@
 				<Property Name="Mode" Type="Int">0</Property>
 				<Property Name="NI.LV.FPGA.CompileConfigString" Type="Str">cRIO-9033/Clk40/falsefalseFPGA_EXECUTION_MODEFPGA_TARGETFPGA_TARGET_CLASSCRIO_9033FPGA_TARGET_FAMILYKINTEX7TARGET_TYPEFPGA</Property>
 				<Property Name="NI.LV.FPGA.Version" Type="Int">8</Property>
-				<Property Name="niFpga_TopLevelVIID" Type="Path">/C/Users/TYU/Documents/GitHub/Paper-2026-Ultra-High-rate-State-Estimation/FPGA Implementation/Streaming-IP/V0.5.2/Target.vi</Property>
+				<Property Name="niFpga_TopLevelVIID" Type="Path">/C/Users/TYU/Documents/GitHub/Paper-2026-Ultra-High-rate-State-Estimation/FPGA Implementation/Streaming-IP/V0.5.2/15-5-5-2.vi</Property>
 				<Property Name="Resource Name" Type="Str">RIO0</Property>
 				<Property Name="Target Class" Type="Str">cRIO-9033</Property>
 				<Property Name="Top-Level Timing Source" Type="Str">40 MHz Onboard Clock</Property>
@@ -162,10 +162,47 @@
 					<Property Name="NI.LV.FPGA.Valid" Type="Bool">true</Property>
 					<Property Name="NI.LV.FPGA.Version" Type="Int">5</Property>
 				</Item>
-				<Item Name="Target.vi" Type="VI" URL="../Target.vi">
+				<Item Name="10-5-5-2.vi" Type="VI" URL="../10-5-5-2.vi">
 					<Property Name="configString.guid" Type="Str">{6797993B-7368-4B32-9BD7-5972578BAEEC}resource=/Scan Clock;0;ReadMethodType=bool{86A7B415-EC1A-4CE5-993E-287C09B1D695}ResourceName=40 MHz Onboard Clock;TopSignalConnect=Clk40;ClockSignalName=Clk40;MinFreq=40000000.000000;MaxFreq=40000000.000000;VariableFreq=0;NomFreq=40000000.000000;PeakPeriodJitter=250.000000;MinDutyCycle=50.000000;MaxDutyCycle=50.000000;Accuracy=100.000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427E;{A441AB0E-D7B2-4487-AA8F-1DA052ADC291}resource=/System Reset;0;ReadMethodType=bool;WriteMethodType=bool{B9DBF0AA-FB1A-4F6D-83FC-F9FA6AC756E5}resource=/Chassis Temperature;0;ReadMethodType=i16{CBF76E80-3493-4135-8B80-73FD850DF428}resource=/Sleep;0;ReadMethodType=bool;WriteMethodType=bool{EF740E32-A081-49EA-94B8-E44E8B7573D4}NumberOfSyncRegistersForReadInProject=0;resource=/USER Push Button;0;ReadMethodType=bool{F28E007C-4724-4D4F-BE40-ADCFD589E134}resource=/USER FPGA LED;0;ReadMethodType=u8;WriteMethodType=u8cRIO-9033/Clk40/falsefalseFPGA_EXECUTION_MODEFPGA_TARGETFPGA_TARGET_CLASSCRIO_9033FPGA_TARGET_FAMILYKINTEX7TARGET_TYPEFPGA/[rSeriesConfig.Begin][rSeriesConfig.End]</Property>
 					<Property Name="configString.name" Type="Str">40 MHz Onboard ClockResourceName=40 MHz Onboard Clock;TopSignalConnect=Clk40;ClockSignalName=Clk40;MinFreq=40000000.000000;MaxFreq=40000000.000000;VariableFreq=0;NomFreq=40000000.000000;PeakPeriodJitter=250.000000;MinDutyCycle=50.000000;MaxDutyCycle=50.000000;Accuracy=100.000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427E;Chassis Temperatureresource=/Chassis Temperature;0;ReadMethodType=i16cRIO-9033/Clk40/falsefalseFPGA_EXECUTION_MODEFPGA_TARGETFPGA_TARGET_CLASSCRIO_9033FPGA_TARGET_FAMILYKINTEX7TARGET_TYPEFPGA/[rSeriesConfig.Begin][rSeriesConfig.End]Scan Clockresource=/Scan Clock;0;ReadMethodType=boolSleepresource=/Sleep;0;ReadMethodType=bool;WriteMethodType=boolSystem Resetresource=/System Reset;0;ReadMethodType=bool;WriteMethodType=boolUSER FPGA LEDresource=/USER FPGA LED;0;ReadMethodType=u8;WriteMethodType=u8USER Push ButtonNumberOfSyncRegistersForReadInProject=0;resource=/USER Push Button;0;ReadMethodType=bool</Property>
-					<Property Name="NI.LV.FPGA.InterfaceBitfile" Type="Str">C:\Users\TYU\Documents\GitHub\Paper-2026-Ultra-High-rate-State-Estimation\FPGA Implementation\Streaming-IP\V0.5.2\FPGA Bitfiles\project_FPGATarget_Target_lnFYviRo1u8.lvbitx</Property>
+				</Item>
+				<Item Name="15-5-5-2.vi" Type="VI" URL="../15-5-5-2.vi">
+					<Property Name="configString.guid" Type="Str">{6797993B-7368-4B32-9BD7-5972578BAEEC}resource=/Scan Clock;0;ReadMethodType=bool{86A7B415-EC1A-4CE5-993E-287C09B1D695}ResourceName=40 MHz Onboard Clock;TopSignalConnect=Clk40;ClockSignalName=Clk40;MinFreq=40000000.000000;MaxFreq=40000000.000000;VariableFreq=0;NomFreq=40000000.000000;PeakPeriodJitter=250.000000;MinDutyCycle=50.000000;MaxDutyCycle=50.000000;Accuracy=100.000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427E;{A441AB0E-D7B2-4487-AA8F-1DA052ADC291}resource=/System Reset;0;ReadMethodType=bool;WriteMethodType=bool{B9DBF0AA-FB1A-4F6D-83FC-F9FA6AC756E5}resource=/Chassis Temperature;0;ReadMethodType=i16{CBF76E80-3493-4135-8B80-73FD850DF428}resource=/Sleep;0;ReadMethodType=bool;WriteMethodType=bool{EF740E32-A081-49EA-94B8-E44E8B7573D4}NumberOfSyncRegistersForReadInProject=0;resource=/USER Push Button;0;ReadMethodType=bool{F28E007C-4724-4D4F-BE40-ADCFD589E134}resource=/USER FPGA LED;0;ReadMethodType=u8;WriteMethodType=u8cRIO-9033/Clk40/falsefalseFPGA_EXECUTION_MODEFPGA_TARGETFPGA_TARGET_CLASSCRIO_9033FPGA_TARGET_FAMILYKINTEX7TARGET_TYPEFPGA/[rSeriesConfig.Begin][rSeriesConfig.End]</Property>
+					<Property Name="configString.name" Type="Str">40 MHz Onboard ClockResourceName=40 MHz Onboard Clock;TopSignalConnect=Clk40;ClockSignalName=Clk40;MinFreq=40000000.000000;MaxFreq=40000000.000000;VariableFreq=0;NomFreq=40000000.000000;PeakPeriodJitter=250.000000;MinDutyCycle=50.000000;MaxDutyCycle=50.000000;Accuracy=100.000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427E;Chassis Temperatureresource=/Chassis Temperature;0;ReadMethodType=i16cRIO-9033/Clk40/falsefalseFPGA_EXECUTION_MODEFPGA_TARGETFPGA_TARGET_CLASSCRIO_9033FPGA_TARGET_FAMILYKINTEX7TARGET_TYPEFPGA/[rSeriesConfig.Begin][rSeriesConfig.End]Scan Clockresource=/Scan Clock;0;ReadMethodType=boolSleepresource=/Sleep;0;ReadMethodType=bool;WriteMethodType=boolSystem Resetresource=/System Reset;0;ReadMethodType=bool;WriteMethodType=boolUSER FPGA LEDresource=/USER FPGA LED;0;ReadMethodType=u8;WriteMethodType=u8USER Push ButtonNumberOfSyncRegistersForReadInProject=0;resource=/USER Push Button;0;ReadMethodType=bool</Property>
+				</Item>
+				<Item Name="15-10-5-2.vi" Type="VI" URL="../15-10-5-2.vi">
+					<Property Name="configString.guid" Type="Str">{6797993B-7368-4B32-9BD7-5972578BAEEC}resource=/Scan Clock;0;ReadMethodType=bool{86A7B415-EC1A-4CE5-993E-287C09B1D695}ResourceName=40 MHz Onboard Clock;TopSignalConnect=Clk40;ClockSignalName=Clk40;MinFreq=40000000.000000;MaxFreq=40000000.000000;VariableFreq=0;NomFreq=40000000.000000;PeakPeriodJitter=250.000000;MinDutyCycle=50.000000;MaxDutyCycle=50.000000;Accuracy=100.000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427E;{A441AB0E-D7B2-4487-AA8F-1DA052ADC291}resource=/System Reset;0;ReadMethodType=bool;WriteMethodType=bool{B9DBF0AA-FB1A-4F6D-83FC-F9FA6AC756E5}resource=/Chassis Temperature;0;ReadMethodType=i16{CBF76E80-3493-4135-8B80-73FD850DF428}resource=/Sleep;0;ReadMethodType=bool;WriteMethodType=bool{EF740E32-A081-49EA-94B8-E44E8B7573D4}NumberOfSyncRegistersForReadInProject=0;resource=/USER Push Button;0;ReadMethodType=bool{F28E007C-4724-4D4F-BE40-ADCFD589E134}resource=/USER FPGA LED;0;ReadMethodType=u8;WriteMethodType=u8cRIO-9033/Clk40/falsefalseFPGA_EXECUTION_MODEFPGA_TARGETFPGA_TARGET_CLASSCRIO_9033FPGA_TARGET_FAMILYKINTEX7TARGET_TYPEFPGA/[rSeriesConfig.Begin][rSeriesConfig.End]</Property>
+					<Property Name="configString.name" Type="Str">40 MHz Onboard ClockResourceName=40 MHz Onboard Clock;TopSignalConnect=Clk40;ClockSignalName=Clk40;MinFreq=40000000.000000;MaxFreq=40000000.000000;VariableFreq=0;NomFreq=40000000.000000;PeakPeriodJitter=250.000000;MinDutyCycle=50.000000;MaxDutyCycle=50.000000;Accuracy=100.000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427E;Chassis Temperatureresource=/Chassis Temperature;0;ReadMethodType=i16cRIO-9033/Clk40/falsefalseFPGA_EXECUTION_MODEFPGA_TARGETFPGA_TARGET_CLASSCRIO_9033FPGA_TARGET_FAMILYKINTEX7TARGET_TYPEFPGA/[rSeriesConfig.Begin][rSeriesConfig.End]Scan Clockresource=/Scan Clock;0;ReadMethodType=boolSleepresource=/Sleep;0;ReadMethodType=bool;WriteMethodType=boolSystem Resetresource=/System Reset;0;ReadMethodType=bool;WriteMethodType=boolUSER FPGA LEDresource=/USER FPGA LED;0;ReadMethodType=u8;WriteMethodType=u8USER Push ButtonNumberOfSyncRegistersForReadInProject=0;resource=/USER Push Button;0;ReadMethodType=bool</Property>
+				</Item>
+				<Item Name="20-15-5-2.vi" Type="VI" URL="../20-15-5-2.vi">
+					<Property Name="configString.guid" Type="Str">{6797993B-7368-4B32-9BD7-5972578BAEEC}resource=/Scan Clock;0;ReadMethodType=bool{86A7B415-EC1A-4CE5-993E-287C09B1D695}ResourceName=40 MHz Onboard Clock;TopSignalConnect=Clk40;ClockSignalName=Clk40;MinFreq=40000000.000000;MaxFreq=40000000.000000;VariableFreq=0;NomFreq=40000000.000000;PeakPeriodJitter=250.000000;MinDutyCycle=50.000000;MaxDutyCycle=50.000000;Accuracy=100.000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427E;{A441AB0E-D7B2-4487-AA8F-1DA052ADC291}resource=/System Reset;0;ReadMethodType=bool;WriteMethodType=bool{B9DBF0AA-FB1A-4F6D-83FC-F9FA6AC756E5}resource=/Chassis Temperature;0;ReadMethodType=i16{CBF76E80-3493-4135-8B80-73FD850DF428}resource=/Sleep;0;ReadMethodType=bool;WriteMethodType=bool{EF740E32-A081-49EA-94B8-E44E8B7573D4}NumberOfSyncRegistersForReadInProject=0;resource=/USER Push Button;0;ReadMethodType=bool{F28E007C-4724-4D4F-BE40-ADCFD589E134}resource=/USER FPGA LED;0;ReadMethodType=u8;WriteMethodType=u8cRIO-9033/Clk40/falsefalseFPGA_EXECUTION_MODEFPGA_TARGETFPGA_TARGET_CLASSCRIO_9033FPGA_TARGET_FAMILYKINTEX7TARGET_TYPEFPGA/[rSeriesConfig.Begin][rSeriesConfig.End]</Property>
+					<Property Name="configString.name" Type="Str">40 MHz Onboard ClockResourceName=40 MHz Onboard Clock;TopSignalConnect=Clk40;ClockSignalName=Clk40;MinFreq=40000000.000000;MaxFreq=40000000.000000;VariableFreq=0;NomFreq=40000000.000000;PeakPeriodJitter=250.000000;MinDutyCycle=50.000000;MaxDutyCycle=50.000000;Accuracy=100.000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427E;Chassis Temperatureresource=/Chassis Temperature;0;ReadMethodType=i16cRIO-9033/Clk40/falsefalseFPGA_EXECUTION_MODEFPGA_TARGETFPGA_TARGET_CLASSCRIO_9033FPGA_TARGET_FAMILYKINTEX7TARGET_TYPEFPGA/[rSeriesConfig.Begin][rSeriesConfig.End]Scan Clockresource=/Scan Clock;0;ReadMethodType=boolSleepresource=/Sleep;0;ReadMethodType=bool;WriteMethodType=boolSystem Resetresource=/System Reset;0;ReadMethodType=bool;WriteMethodType=boolUSER FPGA LEDresource=/USER FPGA LED;0;ReadMethodType=u8;WriteMethodType=u8USER Push ButtonNumberOfSyncRegistersForReadInProject=0;resource=/USER Push Button;0;ReadMethodType=bool</Property>
+				</Item>
+				<Item Name="25-15-5-2.vi" Type="VI" URL="../25-15-5-2.vi">
+					<Property Name="configString.guid" Type="Str">{6797993B-7368-4B32-9BD7-5972578BAEEC}resource=/Scan Clock;0;ReadMethodType=bool{86A7B415-EC1A-4CE5-993E-287C09B1D695}ResourceName=40 MHz Onboard Clock;TopSignalConnect=Clk40;ClockSignalName=Clk40;MinFreq=40000000.000000;MaxFreq=40000000.000000;VariableFreq=0;NomFreq=40000000.000000;PeakPeriodJitter=250.000000;MinDutyCycle=50.000000;MaxDutyCycle=50.000000;Accuracy=100.000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427E;{A441AB0E-D7B2-4487-AA8F-1DA052ADC291}resource=/System Reset;0;ReadMethodType=bool;WriteMethodType=bool{B9DBF0AA-FB1A-4F6D-83FC-F9FA6AC756E5}resource=/Chassis Temperature;0;ReadMethodType=i16{CBF76E80-3493-4135-8B80-73FD850DF428}resource=/Sleep;0;ReadMethodType=bool;WriteMethodType=bool{EF740E32-A081-49EA-94B8-E44E8B7573D4}NumberOfSyncRegistersForReadInProject=0;resource=/USER Push Button;0;ReadMethodType=bool{F28E007C-4724-4D4F-BE40-ADCFD589E134}resource=/USER FPGA LED;0;ReadMethodType=u8;WriteMethodType=u8cRIO-9033/Clk40/falsefalseFPGA_EXECUTION_MODEFPGA_TARGETFPGA_TARGET_CLASSCRIO_9033FPGA_TARGET_FAMILYKINTEX7TARGET_TYPEFPGA/[rSeriesConfig.Begin][rSeriesConfig.End]</Property>
+					<Property Name="configString.name" Type="Str">40 MHz Onboard ClockResourceName=40 MHz Onboard Clock;TopSignalConnect=Clk40;ClockSignalName=Clk40;MinFreq=40000000.000000;MaxFreq=40000000.000000;VariableFreq=0;NomFreq=40000000.000000;PeakPeriodJitter=250.000000;MinDutyCycle=50.000000;MaxDutyCycle=50.000000;Accuracy=100.000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427E;Chassis Temperatureresource=/Chassis Temperature;0;ReadMethodType=i16cRIO-9033/Clk40/falsefalseFPGA_EXECUTION_MODEFPGA_TARGETFPGA_TARGET_CLASSCRIO_9033FPGA_TARGET_FAMILYKINTEX7TARGET_TYPEFPGA/[rSeriesConfig.Begin][rSeriesConfig.End]Scan Clockresource=/Scan Clock;0;ReadMethodType=boolSleepresource=/Sleep;0;ReadMethodType=bool;WriteMethodType=boolSystem Resetresource=/System Reset;0;ReadMethodType=bool;WriteMethodType=boolUSER FPGA LEDresource=/USER FPGA LED;0;ReadMethodType=u8;WriteMethodType=u8USER Push ButtonNumberOfSyncRegistersForReadInProject=0;resource=/USER Push Button;0;ReadMethodType=bool</Property>
+				</Item>
+				<Item Name="25-20-5-2.vi" Type="VI" URL="../25-20-5-2.vi">
+					<Property Name="configString.guid" Type="Str">{6797993B-7368-4B32-9BD7-5972578BAEEC}resource=/Scan Clock;0;ReadMethodType=bool{86A7B415-EC1A-4CE5-993E-287C09B1D695}ResourceName=40 MHz Onboard Clock;TopSignalConnect=Clk40;ClockSignalName=Clk40;MinFreq=40000000.000000;MaxFreq=40000000.000000;VariableFreq=0;NomFreq=40000000.000000;PeakPeriodJitter=250.000000;MinDutyCycle=50.000000;MaxDutyCycle=50.000000;Accuracy=100.000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427E;{A441AB0E-D7B2-4487-AA8F-1DA052ADC291}resource=/System Reset;0;ReadMethodType=bool;WriteMethodType=bool{B9DBF0AA-FB1A-4F6D-83FC-F9FA6AC756E5}resource=/Chassis Temperature;0;ReadMethodType=i16{CBF76E80-3493-4135-8B80-73FD850DF428}resource=/Sleep;0;ReadMethodType=bool;WriteMethodType=bool{EF740E32-A081-49EA-94B8-E44E8B7573D4}NumberOfSyncRegistersForReadInProject=0;resource=/USER Push Button;0;ReadMethodType=bool{F28E007C-4724-4D4F-BE40-ADCFD589E134}resource=/USER FPGA LED;0;ReadMethodType=u8;WriteMethodType=u8cRIO-9033/Clk40/falsefalseFPGA_EXECUTION_MODEFPGA_TARGETFPGA_TARGET_CLASSCRIO_9033FPGA_TARGET_FAMILYKINTEX7TARGET_TYPEFPGA/[rSeriesConfig.Begin][rSeriesConfig.End]</Property>
+					<Property Name="configString.name" Type="Str">40 MHz Onboard ClockResourceName=40 MHz Onboard Clock;TopSignalConnect=Clk40;ClockSignalName=Clk40;MinFreq=40000000.000000;MaxFreq=40000000.000000;VariableFreq=0;NomFreq=40000000.000000;PeakPeriodJitter=250.000000;MinDutyCycle=50.000000;MaxDutyCycle=50.000000;Accuracy=100.000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427E;Chassis Temperatureresource=/Chassis Temperature;0;ReadMethodType=i16cRIO-9033/Clk40/falsefalseFPGA_EXECUTION_MODEFPGA_TARGETFPGA_TARGET_CLASSCRIO_9033FPGA_TARGET_FAMILYKINTEX7TARGET_TYPEFPGA/[rSeriesConfig.Begin][rSeriesConfig.End]Scan Clockresource=/Scan Clock;0;ReadMethodType=boolSleepresource=/Sleep;0;ReadMethodType=bool;WriteMethodType=boolSystem Resetresource=/System Reset;0;ReadMethodType=bool;WriteMethodType=boolUSER FPGA LEDresource=/USER FPGA LED;0;ReadMethodType=u8;WriteMethodType=u8USER Push ButtonNumberOfSyncRegistersForReadInProject=0;resource=/USER Push Button;0;ReadMethodType=bool</Property>
+				</Item>
+				<Item Name="25-20-10-2.vi" Type="VI" URL="../25-20-10-2.vi">
+					<Property Name="configString.guid" Type="Str">{6797993B-7368-4B32-9BD7-5972578BAEEC}resource=/Scan Clock;0;ReadMethodType=bool{86A7B415-EC1A-4CE5-993E-287C09B1D695}ResourceName=40 MHz Onboard Clock;TopSignalConnect=Clk40;ClockSignalName=Clk40;MinFreq=40000000.000000;MaxFreq=40000000.000000;VariableFreq=0;NomFreq=40000000.000000;PeakPeriodJitter=250.000000;MinDutyCycle=50.000000;MaxDutyCycle=50.000000;Accuracy=100.000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427E;{A441AB0E-D7B2-4487-AA8F-1DA052ADC291}resource=/System Reset;0;ReadMethodType=bool;WriteMethodType=bool{B9DBF0AA-FB1A-4F6D-83FC-F9FA6AC756E5}resource=/Chassis Temperature;0;ReadMethodType=i16{CBF76E80-3493-4135-8B80-73FD850DF428}resource=/Sleep;0;ReadMethodType=bool;WriteMethodType=bool{EF740E32-A081-49EA-94B8-E44E8B7573D4}NumberOfSyncRegistersForReadInProject=0;resource=/USER Push Button;0;ReadMethodType=bool{F28E007C-4724-4D4F-BE40-ADCFD589E134}resource=/USER FPGA LED;0;ReadMethodType=u8;WriteMethodType=u8cRIO-9033/Clk40/falsefalseFPGA_EXECUTION_MODEFPGA_TARGETFPGA_TARGET_CLASSCRIO_9033FPGA_TARGET_FAMILYKINTEX7TARGET_TYPEFPGA/[rSeriesConfig.Begin][rSeriesConfig.End]</Property>
+					<Property Name="configString.name" Type="Str">40 MHz Onboard ClockResourceName=40 MHz Onboard Clock;TopSignalConnect=Clk40;ClockSignalName=Clk40;MinFreq=40000000.000000;MaxFreq=40000000.000000;VariableFreq=0;NomFreq=40000000.000000;PeakPeriodJitter=250.000000;MinDutyCycle=50.000000;MaxDutyCycle=50.000000;Accuracy=100.000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427E;Chassis Temperatureresource=/Chassis Temperature;0;ReadMethodType=i16cRIO-9033/Clk40/falsefalseFPGA_EXECUTION_MODEFPGA_TARGETFPGA_TARGET_CLASSCRIO_9033FPGA_TARGET_FAMILYKINTEX7TARGET_TYPEFPGA/[rSeriesConfig.Begin][rSeriesConfig.End]Scan Clockresource=/Scan Clock;0;ReadMethodType=boolSleepresource=/Sleep;0;ReadMethodType=bool;WriteMethodType=boolSystem Resetresource=/System Reset;0;ReadMethodType=bool;WriteMethodType=boolUSER FPGA LEDresource=/USER FPGA LED;0;ReadMethodType=u8;WriteMethodType=u8USER Push ButtonNumberOfSyncRegistersForReadInProject=0;resource=/USER Push Button;0;ReadMethodType=bool</Property>
+				</Item>
+				<Item Name="30-20-10-2.vi" Type="VI" URL="../30-20-10-2.vi">
+					<Property Name="configString.guid" Type="Str">{6797993B-7368-4B32-9BD7-5972578BAEEC}resource=/Scan Clock;0;ReadMethodType=bool{86A7B415-EC1A-4CE5-993E-287C09B1D695}ResourceName=40 MHz Onboard Clock;TopSignalConnect=Clk40;ClockSignalName=Clk40;MinFreq=40000000.000000;MaxFreq=40000000.000000;VariableFreq=0;NomFreq=40000000.000000;PeakPeriodJitter=250.000000;MinDutyCycle=50.000000;MaxDutyCycle=50.000000;Accuracy=100.000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427E;{A441AB0E-D7B2-4487-AA8F-1DA052ADC291}resource=/System Reset;0;ReadMethodType=bool;WriteMethodType=bool{B9DBF0AA-FB1A-4F6D-83FC-F9FA6AC756E5}resource=/Chassis Temperature;0;ReadMethodType=i16{CBF76E80-3493-4135-8B80-73FD850DF428}resource=/Sleep;0;ReadMethodType=bool;WriteMethodType=bool{EF740E32-A081-49EA-94B8-E44E8B7573D4}NumberOfSyncRegistersForReadInProject=0;resource=/USER Push Button;0;ReadMethodType=bool{F28E007C-4724-4D4F-BE40-ADCFD589E134}resource=/USER FPGA LED;0;ReadMethodType=u8;WriteMethodType=u8cRIO-9033/Clk40/falsefalseFPGA_EXECUTION_MODEFPGA_TARGETFPGA_TARGET_CLASSCRIO_9033FPGA_TARGET_FAMILYKINTEX7TARGET_TYPEFPGA/[rSeriesConfig.Begin][rSeriesConfig.End]</Property>
+					<Property Name="configString.name" Type="Str">40 MHz Onboard ClockResourceName=40 MHz Onboard Clock;TopSignalConnect=Clk40;ClockSignalName=Clk40;MinFreq=40000000.000000;MaxFreq=40000000.000000;VariableFreq=0;NomFreq=40000000.000000;PeakPeriodJitter=250.000000;MinDutyCycle=50.000000;MaxDutyCycle=50.000000;Accuracy=100.000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427E;Chassis Temperatureresource=/Chassis Temperature;0;ReadMethodType=i16cRIO-9033/Clk40/falsefalseFPGA_EXECUTION_MODEFPGA_TARGETFPGA_TARGET_CLASSCRIO_9033FPGA_TARGET_FAMILYKINTEX7TARGET_TYPEFPGA/[rSeriesConfig.Begin][rSeriesConfig.End]Scan Clockresource=/Scan Clock;0;ReadMethodType=boolSleepresource=/Sleep;0;ReadMethodType=bool;WriteMethodType=boolSystem Resetresource=/System Reset;0;ReadMethodType=bool;WriteMethodType=boolUSER FPGA LEDresource=/USER FPGA LED;0;ReadMethodType=u8;WriteMethodType=u8USER Push ButtonNumberOfSyncRegistersForReadInProject=0;resource=/USER Push Button;0;ReadMethodType=bool</Property>
+				</Item>
+				<Item Name="50-35-15-2.vi" Type="VI" URL="../50-35-15-2.vi">
+					<Property Name="configString.guid" Type="Str">{6797993B-7368-4B32-9BD7-5972578BAEEC}resource=/Scan Clock;0;ReadMethodType=bool{86A7B415-EC1A-4CE5-993E-287C09B1D695}ResourceName=40 MHz Onboard Clock;TopSignalConnect=Clk40;ClockSignalName=Clk40;MinFreq=40000000.000000;MaxFreq=40000000.000000;VariableFreq=0;NomFreq=40000000.000000;PeakPeriodJitter=250.000000;MinDutyCycle=50.000000;MaxDutyCycle=50.000000;Accuracy=100.000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427E;{A441AB0E-D7B2-4487-AA8F-1DA052ADC291}resource=/System Reset;0;ReadMethodType=bool;WriteMethodType=bool{B9DBF0AA-FB1A-4F6D-83FC-F9FA6AC756E5}resource=/Chassis Temperature;0;ReadMethodType=i16{CBF76E80-3493-4135-8B80-73FD850DF428}resource=/Sleep;0;ReadMethodType=bool;WriteMethodType=bool{EF740E32-A081-49EA-94B8-E44E8B7573D4}NumberOfSyncRegistersForReadInProject=0;resource=/USER Push Button;0;ReadMethodType=bool{F28E007C-4724-4D4F-BE40-ADCFD589E134}resource=/USER FPGA LED;0;ReadMethodType=u8;WriteMethodType=u8cRIO-9033/Clk40/falsefalseFPGA_EXECUTION_MODEFPGA_TARGETFPGA_TARGET_CLASSCRIO_9033FPGA_TARGET_FAMILYKINTEX7TARGET_TYPEFPGA/[rSeriesConfig.Begin][rSeriesConfig.End]</Property>
+					<Property Name="configString.name" Type="Str">40 MHz Onboard ClockResourceName=40 MHz Onboard Clock;TopSignalConnect=Clk40;ClockSignalName=Clk40;MinFreq=40000000.000000;MaxFreq=40000000.000000;VariableFreq=0;NomFreq=40000000.000000;PeakPeriodJitter=250.000000;MinDutyCycle=50.000000;MaxDutyCycle=50.000000;Accuracy=100.000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427E;Chassis Temperatureresource=/Chassis Temperature;0;ReadMethodType=i16cRIO-9033/Clk40/falsefalseFPGA_EXECUTION_MODEFPGA_TARGETFPGA_TARGET_CLASSCRIO_9033FPGA_TARGET_FAMILYKINTEX7TARGET_TYPEFPGA/[rSeriesConfig.Begin][rSeriesConfig.End]Scan Clockresource=/Scan Clock;0;ReadMethodType=boolSleepresource=/Sleep;0;ReadMethodType=bool;WriteMethodType=boolSystem Resetresource=/System Reset;0;ReadMethodType=bool;WriteMethodType=boolUSER FPGA LEDresource=/USER FPGA LED;0;ReadMethodType=u8;WriteMethodType=u8USER Push ButtonNumberOfSyncRegistersForReadInProject=0;resource=/USER Push Button;0;ReadMethodType=bool</Property>
+					<Property Name="NI.LV.FPGA.InterfaceBitfile" Type="Str">C:\Users\TYU\Documents\GitHub\Paper-2026-Ultra-High-rate-State-Estimation\FPGA Implementation\Streaming-IP\V0.5.2\FPGA Bitfiles\project_FPGATarget_50-35-15-2_K-WXn1q58Rw.lvbitx</Property>
+				</Item>
+				<Item Name="75-50-20-2.vi" Type="VI" URL="../75-50-20-2.vi">
+					<Property Name="configString.guid" Type="Str">{6797993B-7368-4B32-9BD7-5972578BAEEC}resource=/Scan Clock;0;ReadMethodType=bool{86A7B415-EC1A-4CE5-993E-287C09B1D695}ResourceName=40 MHz Onboard Clock;TopSignalConnect=Clk40;ClockSignalName=Clk40;MinFreq=40000000.000000;MaxFreq=40000000.000000;VariableFreq=0;NomFreq=40000000.000000;PeakPeriodJitter=250.000000;MinDutyCycle=50.000000;MaxDutyCycle=50.000000;Accuracy=100.000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427E;{A441AB0E-D7B2-4487-AA8F-1DA052ADC291}resource=/System Reset;0;ReadMethodType=bool;WriteMethodType=bool{B9DBF0AA-FB1A-4F6D-83FC-F9FA6AC756E5}resource=/Chassis Temperature;0;ReadMethodType=i16{CBF76E80-3493-4135-8B80-73FD850DF428}resource=/Sleep;0;ReadMethodType=bool;WriteMethodType=bool{EF740E32-A081-49EA-94B8-E44E8B7573D4}NumberOfSyncRegistersForReadInProject=0;resource=/USER Push Button;0;ReadMethodType=bool{F28E007C-4724-4D4F-BE40-ADCFD589E134}resource=/USER FPGA LED;0;ReadMethodType=u8;WriteMethodType=u8cRIO-9033/Clk40/falsefalseFPGA_EXECUTION_MODEFPGA_TARGETFPGA_TARGET_CLASSCRIO_9033FPGA_TARGET_FAMILYKINTEX7TARGET_TYPEFPGA/[rSeriesConfig.Begin][rSeriesConfig.End]</Property>
+					<Property Name="configString.name" Type="Str">40 MHz Onboard ClockResourceName=40 MHz Onboard Clock;TopSignalConnect=Clk40;ClockSignalName=Clk40;MinFreq=40000000.000000;MaxFreq=40000000.000000;VariableFreq=0;NomFreq=40000000.000000;PeakPeriodJitter=250.000000;MinDutyCycle=50.000000;MaxDutyCycle=50.000000;Accuracy=100.000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427E;Chassis Temperatureresource=/Chassis Temperature;0;ReadMethodType=i16cRIO-9033/Clk40/falsefalseFPGA_EXECUTION_MODEFPGA_TARGETFPGA_TARGET_CLASSCRIO_9033FPGA_TARGET_FAMILYKINTEX7TARGET_TYPEFPGA/[rSeriesConfig.Begin][rSeriesConfig.End]Scan Clockresource=/Scan Clock;0;ReadMethodType=boolSleepresource=/Sleep;0;ReadMethodType=bool;WriteMethodType=boolSystem Resetresource=/System Reset;0;ReadMethodType=bool;WriteMethodType=boolUSER FPGA LEDresource=/USER FPGA LED;0;ReadMethodType=u8;WriteMethodType=u8USER Push ButtonNumberOfSyncRegistersForReadInProject=0;resource=/USER Push Button;0;ReadMethodType=bool</Property>
+					<Property Name="NI.LV.FPGA.InterfaceBitfile" Type="Str">C:\Users\TYU\Documents\GitHub\Paper-2026-Ultra-High-rate-State-Estimation\FPGA Implementation\Streaming-IP\V0.5.2\FPGA Bitfiles\project_FPGATarget_75-50-20-2_oAV4KDDGMbU.lvbitx</Property>
 				</Item>
 				<Item Name="Dependencies" Type="Dependencies"/>
 				<Item Name="Build Specifications" Type="Build">
@@ -205,7 +242,335 @@
 						<Property Name="SupportDownload" Type="Bool">true</Property>
 						<Property Name="SupportResourceEstimation" Type="Bool">false</Property>
 						<Property Name="TargetName" Type="Str">FPGA Target</Property>
-						<Property Name="TopLevelVI" Type="Ref">/NI-cRIO-9033-Rack3/Chassis/FPGA Target/Target.vi</Property>
+						<Property Name="TopLevelVI" Type="Ref"></Property>
+					</Item>
+					<Item Name="50-35-15-2" Type="{F4C5E96F-7410-48A5-BB87-3559BC9B167F}">
+						<Property Name="AllowEnableRemoval" Type="Bool">false</Property>
+						<Property Name="BuildSpecDecription" Type="Str"></Property>
+						<Property Name="BuildSpecName" Type="Str">50-35-15-2</Property>
+						<Property Name="Comp.BitfileName" Type="Str">project_FPGATarget_50-35-15-2_K-WXn1q58Rw.lvbitx</Property>
+						<Property Name="Comp.CustomXilinxParameters" Type="Str"></Property>
+						<Property Name="Comp.MaxFanout" Type="Int">-1</Property>
+						<Property Name="Comp.RandomSeed" Type="Bool">false</Property>
+						<Property Name="Comp.Version.Build" Type="Int">0</Property>
+						<Property Name="Comp.Version.Fix" Type="Int">0</Property>
+						<Property Name="Comp.Version.Major" Type="Int">1</Property>
+						<Property Name="Comp.Version.Minor" Type="Int">0</Property>
+						<Property Name="Comp.VersionAutoIncrement" Type="Bool">false</Property>
+						<Property Name="Comp.Vivado.EnableMultiThreading" Type="Bool">true</Property>
+						<Property Name="Comp.Vivado.OptDirective" Type="Str"></Property>
+						<Property Name="Comp.Vivado.PhysOptDirective" Type="Str"></Property>
+						<Property Name="Comp.Vivado.PlaceDirective" Type="Str"></Property>
+						<Property Name="Comp.Vivado.RouteDirective" Type="Str"></Property>
+						<Property Name="Comp.Vivado.RunPowerOpt" Type="Bool">false</Property>
+						<Property Name="Comp.Vivado.Strategy" Type="Str">Default</Property>
+						<Property Name="Comp.Xilinx.DesignStrategy" Type="Str">balanced</Property>
+						<Property Name="Comp.Xilinx.MapEffort" Type="Str">default(noTiming)</Property>
+						<Property Name="Comp.Xilinx.ParEffort" Type="Str">standard</Property>
+						<Property Name="Comp.Xilinx.SynthEffort" Type="Str">normal</Property>
+						<Property Name="Comp.Xilinx.SynthGoal" Type="Str">speed</Property>
+						<Property Name="Comp.Xilinx.UseRecommended" Type="Bool">true</Property>
+						<Property Name="DefaultBuildSpec" Type="Bool">true</Property>
+						<Property Name="DestinationDirectory" Type="Path">FPGA Bitfiles</Property>
+						<Property Name="NI.LV.FPGA.LastCompiledBitfilePath" Type="Path">/C/Users/TYU/Documents/GitHub/Paper-2026-Ultra-High-rate-State-Estimation/FPGA Implementation/Streaming-IP/V0.5.2/FPGA Bitfiles/project_FPGATarget_50-35-15-2_K-WXn1q58Rw.lvbitx</Property>
+						<Property Name="NI.LV.FPGA.LastCompiledBitfilePathRelativeToProject" Type="Path">FPGA Bitfiles/project_FPGATarget_50-35-15-2_K-WXn1q58Rw.lvbitx</Property>
+						<Property Name="ProjectPath" Type="Path">/C/Users/TYU/Documents/GitHub/Paper-2026-Ultra-High-rate-State-Estimation/FPGA Implementation/Streaming-IP/V0.5.2/Project.lvproj</Property>
+						<Property Name="RelativePath" Type="Bool">true</Property>
+						<Property Name="RunWhenLoaded" Type="Bool">false</Property>
+						<Property Name="SupportDownload" Type="Bool">true</Property>
+						<Property Name="SupportResourceEstimation" Type="Bool">false</Property>
+						<Property Name="TargetName" Type="Str">FPGA Target</Property>
+						<Property Name="TopLevelVI" Type="Ref">/NI-cRIO-9033-Rack3/Chassis/FPGA Target/50-35-15-2.vi</Property>
+					</Item>
+					<Item Name="75-50-20-2" Type="{F4C5E96F-7410-48A5-BB87-3559BC9B167F}">
+						<Property Name="AllowEnableRemoval" Type="Bool">false</Property>
+						<Property Name="BuildSpecDecription" Type="Str"></Property>
+						<Property Name="BuildSpecName" Type="Str">75-50-20-2</Property>
+						<Property Name="Comp.BitfileName" Type="Str">project_FPGATarget_75-50-20-2_oAV4KDDGMbU.lvbitx</Property>
+						<Property Name="Comp.CustomXilinxParameters" Type="Str"></Property>
+						<Property Name="Comp.MaxFanout" Type="Int">-1</Property>
+						<Property Name="Comp.RandomSeed" Type="Bool">false</Property>
+						<Property Name="Comp.Version.Build" Type="Int">0</Property>
+						<Property Name="Comp.Version.Fix" Type="Int">0</Property>
+						<Property Name="Comp.Version.Major" Type="Int">1</Property>
+						<Property Name="Comp.Version.Minor" Type="Int">0</Property>
+						<Property Name="Comp.VersionAutoIncrement" Type="Bool">false</Property>
+						<Property Name="Comp.Vivado.EnableMultiThreading" Type="Bool">true</Property>
+						<Property Name="Comp.Vivado.OptDirective" Type="Str"></Property>
+						<Property Name="Comp.Vivado.PhysOptDirective" Type="Str"></Property>
+						<Property Name="Comp.Vivado.PlaceDirective" Type="Str"></Property>
+						<Property Name="Comp.Vivado.RouteDirective" Type="Str"></Property>
+						<Property Name="Comp.Vivado.RunPowerOpt" Type="Bool">false</Property>
+						<Property Name="Comp.Vivado.Strategy" Type="Str">Default</Property>
+						<Property Name="Comp.Xilinx.DesignStrategy" Type="Str">balanced</Property>
+						<Property Name="Comp.Xilinx.MapEffort" Type="Str">default(noTiming)</Property>
+						<Property Name="Comp.Xilinx.ParEffort" Type="Str">standard</Property>
+						<Property Name="Comp.Xilinx.SynthEffort" Type="Str">normal</Property>
+						<Property Name="Comp.Xilinx.SynthGoal" Type="Str">speed</Property>
+						<Property Name="Comp.Xilinx.UseRecommended" Type="Bool">true</Property>
+						<Property Name="DefaultBuildSpec" Type="Bool">true</Property>
+						<Property Name="DestinationDirectory" Type="Path">FPGA Bitfiles</Property>
+						<Property Name="NI.LV.FPGA.LastCompiledBitfilePath" Type="Path">/C/Users/TYU/Documents/GitHub/Paper-2026-Ultra-High-rate-State-Estimation/FPGA Implementation/Streaming-IP/V0.5.2/FPGA Bitfiles/project_FPGATarget_75-50-20-2_oAV4KDDGMbU.lvbitx</Property>
+						<Property Name="NI.LV.FPGA.LastCompiledBitfilePathRelativeToProject" Type="Path">FPGA Bitfiles/project_FPGATarget_75-50-20-2_oAV4KDDGMbU.lvbitx</Property>
+						<Property Name="ProjectPath" Type="Path">/C/Users/TYU/Documents/GitHub/Paper-2026-Ultra-High-rate-State-Estimation/FPGA Implementation/Streaming-IP/V0.5.2/Project.lvproj</Property>
+						<Property Name="RelativePath" Type="Bool">true</Property>
+						<Property Name="RunWhenLoaded" Type="Bool">false</Property>
+						<Property Name="SupportDownload" Type="Bool">true</Property>
+						<Property Name="SupportResourceEstimation" Type="Bool">false</Property>
+						<Property Name="TargetName" Type="Str">FPGA Target</Property>
+						<Property Name="TopLevelVI" Type="Ref">/NI-cRIO-9033-Rack3/Chassis/FPGA Target/75-50-20-2.vi</Property>
+					</Item>
+					<Item Name="30-20-10-2" Type="{F4C5E96F-7410-48A5-BB87-3559BC9B167F}">
+						<Property Name="AllowEnableRemoval" Type="Bool">false</Property>
+						<Property Name="BuildSpecDecription" Type="Str"></Property>
+						<Property Name="BuildSpecName" Type="Str">30-20-10-2</Property>
+						<Property Name="Comp.BitfileName" Type="Str">project_FPGATarget_30-20-10-2_VX7ZBImomjk.lvbitx</Property>
+						<Property Name="Comp.CustomXilinxParameters" Type="Str"></Property>
+						<Property Name="Comp.MaxFanout" Type="Int">-1</Property>
+						<Property Name="Comp.RandomSeed" Type="Bool">false</Property>
+						<Property Name="Comp.Version.Build" Type="Int">0</Property>
+						<Property Name="Comp.Version.Fix" Type="Int">0</Property>
+						<Property Name="Comp.Version.Major" Type="Int">1</Property>
+						<Property Name="Comp.Version.Minor" Type="Int">0</Property>
+						<Property Name="Comp.VersionAutoIncrement" Type="Bool">false</Property>
+						<Property Name="Comp.Vivado.EnableMultiThreading" Type="Bool">true</Property>
+						<Property Name="Comp.Vivado.OptDirective" Type="Str"></Property>
+						<Property Name="Comp.Vivado.PhysOptDirective" Type="Str"></Property>
+						<Property Name="Comp.Vivado.PlaceDirective" Type="Str"></Property>
+						<Property Name="Comp.Vivado.RouteDirective" Type="Str"></Property>
+						<Property Name="Comp.Vivado.RunPowerOpt" Type="Bool">false</Property>
+						<Property Name="Comp.Vivado.Strategy" Type="Str">Default</Property>
+						<Property Name="Comp.Xilinx.DesignStrategy" Type="Str">balanced</Property>
+						<Property Name="Comp.Xilinx.MapEffort" Type="Str">default(noTiming)</Property>
+						<Property Name="Comp.Xilinx.ParEffort" Type="Str">standard</Property>
+						<Property Name="Comp.Xilinx.SynthEffort" Type="Str">normal</Property>
+						<Property Name="Comp.Xilinx.SynthGoal" Type="Str">speed</Property>
+						<Property Name="Comp.Xilinx.UseRecommended" Type="Bool">true</Property>
+						<Property Name="DefaultBuildSpec" Type="Bool">true</Property>
+						<Property Name="DestinationDirectory" Type="Path">FPGA Bitfiles</Property>
+						<Property Name="ProjectPath" Type="Path">/C/Users/TYU/Documents/GitHub/Paper-2026-Ultra-High-rate-State-Estimation/FPGA Implementation/Streaming-IP/V0.5.2/Project.lvproj</Property>
+						<Property Name="RelativePath" Type="Bool">true</Property>
+						<Property Name="RunWhenLoaded" Type="Bool">false</Property>
+						<Property Name="SupportDownload" Type="Bool">true</Property>
+						<Property Name="SupportResourceEstimation" Type="Bool">false</Property>
+						<Property Name="TargetName" Type="Str">FPGA Target</Property>
+						<Property Name="TopLevelVI" Type="Ref">/NI-cRIO-9033-Rack3/Chassis/FPGA Target/30-20-10-2.vi</Property>
+					</Item>
+					<Item Name="25-20-10-2" Type="{F4C5E96F-7410-48A5-BB87-3559BC9B167F}">
+						<Property Name="AllowEnableRemoval" Type="Bool">false</Property>
+						<Property Name="BuildSpecDecription" Type="Str"></Property>
+						<Property Name="BuildSpecName" Type="Str">25-20-10-2</Property>
+						<Property Name="Comp.BitfileName" Type="Str">project_FPGATarget_25-20-10-2_qxmsSQpY454.lvbitx</Property>
+						<Property Name="Comp.CustomXilinxParameters" Type="Str"></Property>
+						<Property Name="Comp.MaxFanout" Type="Int">-1</Property>
+						<Property Name="Comp.RandomSeed" Type="Bool">false</Property>
+						<Property Name="Comp.Version.Build" Type="Int">0</Property>
+						<Property Name="Comp.Version.Fix" Type="Int">0</Property>
+						<Property Name="Comp.Version.Major" Type="Int">1</Property>
+						<Property Name="Comp.Version.Minor" Type="Int">0</Property>
+						<Property Name="Comp.VersionAutoIncrement" Type="Bool">false</Property>
+						<Property Name="Comp.Vivado.EnableMultiThreading" Type="Bool">true</Property>
+						<Property Name="Comp.Vivado.OptDirective" Type="Str"></Property>
+						<Property Name="Comp.Vivado.PhysOptDirective" Type="Str"></Property>
+						<Property Name="Comp.Vivado.PlaceDirective" Type="Str"></Property>
+						<Property Name="Comp.Vivado.RouteDirective" Type="Str"></Property>
+						<Property Name="Comp.Vivado.RunPowerOpt" Type="Bool">false</Property>
+						<Property Name="Comp.Vivado.Strategy" Type="Str">Default</Property>
+						<Property Name="Comp.Xilinx.DesignStrategy" Type="Str">balanced</Property>
+						<Property Name="Comp.Xilinx.MapEffort" Type="Str">default(noTiming)</Property>
+						<Property Name="Comp.Xilinx.ParEffort" Type="Str">standard</Property>
+						<Property Name="Comp.Xilinx.SynthEffort" Type="Str">normal</Property>
+						<Property Name="Comp.Xilinx.SynthGoal" Type="Str">speed</Property>
+						<Property Name="Comp.Xilinx.UseRecommended" Type="Bool">true</Property>
+						<Property Name="DefaultBuildSpec" Type="Bool">true</Property>
+						<Property Name="DestinationDirectory" Type="Path">FPGA Bitfiles</Property>
+						<Property Name="ProjectPath" Type="Path">/C/Users/TYU/Documents/GitHub/Paper-2026-Ultra-High-rate-State-Estimation/FPGA Implementation/Streaming-IP/V0.5.2/Project.lvproj</Property>
+						<Property Name="RelativePath" Type="Bool">true</Property>
+						<Property Name="RunWhenLoaded" Type="Bool">false</Property>
+						<Property Name="SupportDownload" Type="Bool">true</Property>
+						<Property Name="SupportResourceEstimation" Type="Bool">false</Property>
+						<Property Name="TargetName" Type="Str">FPGA Target</Property>
+						<Property Name="TopLevelVI" Type="Ref">/NI-cRIO-9033-Rack3/Chassis/FPGA Target/25-20-10-2.vi</Property>
+					</Item>
+					<Item Name="25-20-5-2" Type="{F4C5E96F-7410-48A5-BB87-3559BC9B167F}">
+						<Property Name="AllowEnableRemoval" Type="Bool">false</Property>
+						<Property Name="BuildSpecDecription" Type="Str"></Property>
+						<Property Name="BuildSpecName" Type="Str">25-20-5-2</Property>
+						<Property Name="Comp.BitfileName" Type="Str">project_FPGATarget_25-20-5-2_jVznme+Q470.lvbitx</Property>
+						<Property Name="Comp.CustomXilinxParameters" Type="Str"></Property>
+						<Property Name="Comp.MaxFanout" Type="Int">-1</Property>
+						<Property Name="Comp.RandomSeed" Type="Bool">false</Property>
+						<Property Name="Comp.Version.Build" Type="Int">0</Property>
+						<Property Name="Comp.Version.Fix" Type="Int">0</Property>
+						<Property Name="Comp.Version.Major" Type="Int">1</Property>
+						<Property Name="Comp.Version.Minor" Type="Int">0</Property>
+						<Property Name="Comp.VersionAutoIncrement" Type="Bool">false</Property>
+						<Property Name="Comp.Vivado.EnableMultiThreading" Type="Bool">true</Property>
+						<Property Name="Comp.Vivado.OptDirective" Type="Str"></Property>
+						<Property Name="Comp.Vivado.PhysOptDirective" Type="Str"></Property>
+						<Property Name="Comp.Vivado.PlaceDirective" Type="Str"></Property>
+						<Property Name="Comp.Vivado.RouteDirective" Type="Str"></Property>
+						<Property Name="Comp.Vivado.RunPowerOpt" Type="Bool">false</Property>
+						<Property Name="Comp.Vivado.Strategy" Type="Str">Default</Property>
+						<Property Name="Comp.Xilinx.DesignStrategy" Type="Str">balanced</Property>
+						<Property Name="Comp.Xilinx.MapEffort" Type="Str">default(noTiming)</Property>
+						<Property Name="Comp.Xilinx.ParEffort" Type="Str">standard</Property>
+						<Property Name="Comp.Xilinx.SynthEffort" Type="Str">normal</Property>
+						<Property Name="Comp.Xilinx.SynthGoal" Type="Str">speed</Property>
+						<Property Name="Comp.Xilinx.UseRecommended" Type="Bool">true</Property>
+						<Property Name="DefaultBuildSpec" Type="Bool">true</Property>
+						<Property Name="DestinationDirectory" Type="Path">FPGA Bitfiles</Property>
+						<Property Name="ProjectPath" Type="Path">/C/Users/TYU/Documents/GitHub/Paper-2026-Ultra-High-rate-State-Estimation/FPGA Implementation/Streaming-IP/V0.5.2/Project.lvproj</Property>
+						<Property Name="RelativePath" Type="Bool">true</Property>
+						<Property Name="RunWhenLoaded" Type="Bool">false</Property>
+						<Property Name="SupportDownload" Type="Bool">true</Property>
+						<Property Name="SupportResourceEstimation" Type="Bool">false</Property>
+						<Property Name="TargetName" Type="Str">FPGA Target</Property>
+						<Property Name="TopLevelVI" Type="Ref">/NI-cRIO-9033-Rack3/Chassis/FPGA Target/25-20-5-2.vi</Property>
+					</Item>
+					<Item Name="25-15-5-2" Type="{F4C5E96F-7410-48A5-BB87-3559BC9B167F}">
+						<Property Name="AllowEnableRemoval" Type="Bool">false</Property>
+						<Property Name="BuildSpecDecription" Type="Str"></Property>
+						<Property Name="BuildSpecName" Type="Str">25-15-5-2</Property>
+						<Property Name="Comp.BitfileName" Type="Str">project_FPGATarget_25-15-5-2_OLMJ3ghGXms.lvbitx</Property>
+						<Property Name="Comp.CustomXilinxParameters" Type="Str"></Property>
+						<Property Name="Comp.MaxFanout" Type="Int">-1</Property>
+						<Property Name="Comp.RandomSeed" Type="Bool">false</Property>
+						<Property Name="Comp.Version.Build" Type="Int">0</Property>
+						<Property Name="Comp.Version.Fix" Type="Int">0</Property>
+						<Property Name="Comp.Version.Major" Type="Int">1</Property>
+						<Property Name="Comp.Version.Minor" Type="Int">0</Property>
+						<Property Name="Comp.VersionAutoIncrement" Type="Bool">false</Property>
+						<Property Name="Comp.Vivado.EnableMultiThreading" Type="Bool">true</Property>
+						<Property Name="Comp.Vivado.OptDirective" Type="Str"></Property>
+						<Property Name="Comp.Vivado.PhysOptDirective" Type="Str"></Property>
+						<Property Name="Comp.Vivado.PlaceDirective" Type="Str"></Property>
+						<Property Name="Comp.Vivado.RouteDirective" Type="Str"></Property>
+						<Property Name="Comp.Vivado.RunPowerOpt" Type="Bool">false</Property>
+						<Property Name="Comp.Vivado.Strategy" Type="Str">Default</Property>
+						<Property Name="Comp.Xilinx.DesignStrategy" Type="Str">balanced</Property>
+						<Property Name="Comp.Xilinx.MapEffort" Type="Str">default(noTiming)</Property>
+						<Property Name="Comp.Xilinx.ParEffort" Type="Str">standard</Property>
+						<Property Name="Comp.Xilinx.SynthEffort" Type="Str">normal</Property>
+						<Property Name="Comp.Xilinx.SynthGoal" Type="Str">speed</Property>
+						<Property Name="Comp.Xilinx.UseRecommended" Type="Bool">true</Property>
+						<Property Name="DefaultBuildSpec" Type="Bool">true</Property>
+						<Property Name="DestinationDirectory" Type="Path">FPGA Bitfiles</Property>
+						<Property Name="ProjectPath" Type="Path">/C/Users/TYU/Documents/GitHub/Paper-2026-Ultra-High-rate-State-Estimation/FPGA Implementation/Streaming-IP/V0.5.2/Project.lvproj</Property>
+						<Property Name="RelativePath" Type="Bool">true</Property>
+						<Property Name="RunWhenLoaded" Type="Bool">false</Property>
+						<Property Name="SupportDownload" Type="Bool">true</Property>
+						<Property Name="SupportResourceEstimation" Type="Bool">false</Property>
+						<Property Name="TargetName" Type="Str">FPGA Target</Property>
+						<Property Name="TopLevelVI" Type="Ref">/NI-cRIO-9033-Rack3/Chassis/FPGA Target/25-15-5-2.vi</Property>
+					</Item>
+					<Item Name="20-15-5-2" Type="{F4C5E96F-7410-48A5-BB87-3559BC9B167F}">
+						<Property Name="AllowEnableRemoval" Type="Bool">false</Property>
+						<Property Name="BuildSpecDecription" Type="Str"></Property>
+						<Property Name="BuildSpecName" Type="Str">20-15-5-2</Property>
+						<Property Name="Comp.BitfileName" Type="Str">project_FPGATarget_20-15-5-2_Zh0Bw226R0s.lvbitx</Property>
+						<Property Name="Comp.CustomXilinxParameters" Type="Str"></Property>
+						<Property Name="Comp.MaxFanout" Type="Int">-1</Property>
+						<Property Name="Comp.RandomSeed" Type="Bool">false</Property>
+						<Property Name="Comp.Version.Build" Type="Int">0</Property>
+						<Property Name="Comp.Version.Fix" Type="Int">0</Property>
+						<Property Name="Comp.Version.Major" Type="Int">1</Property>
+						<Property Name="Comp.Version.Minor" Type="Int">0</Property>
+						<Property Name="Comp.VersionAutoIncrement" Type="Bool">false</Property>
+						<Property Name="Comp.Vivado.EnableMultiThreading" Type="Bool">true</Property>
+						<Property Name="Comp.Vivado.OptDirective" Type="Str"></Property>
+						<Property Name="Comp.Vivado.PhysOptDirective" Type="Str"></Property>
+						<Property Name="Comp.Vivado.PlaceDirective" Type="Str"></Property>
+						<Property Name="Comp.Vivado.RouteDirective" Type="Str"></Property>
+						<Property Name="Comp.Vivado.RunPowerOpt" Type="Bool">false</Property>
+						<Property Name="Comp.Vivado.Strategy" Type="Str">Default</Property>
+						<Property Name="Comp.Xilinx.DesignStrategy" Type="Str">balanced</Property>
+						<Property Name="Comp.Xilinx.MapEffort" Type="Str">default(noTiming)</Property>
+						<Property Name="Comp.Xilinx.ParEffort" Type="Str">standard</Property>
+						<Property Name="Comp.Xilinx.SynthEffort" Type="Str">normal</Property>
+						<Property Name="Comp.Xilinx.SynthGoal" Type="Str">speed</Property>
+						<Property Name="Comp.Xilinx.UseRecommended" Type="Bool">true</Property>
+						<Property Name="DefaultBuildSpec" Type="Bool">true</Property>
+						<Property Name="DestinationDirectory" Type="Path">FPGA Bitfiles</Property>
+						<Property Name="ProjectPath" Type="Path">/C/Users/TYU/Documents/GitHub/Paper-2026-Ultra-High-rate-State-Estimation/FPGA Implementation/Streaming-IP/V0.5.2/Project.lvproj</Property>
+						<Property Name="RelativePath" Type="Bool">true</Property>
+						<Property Name="RunWhenLoaded" Type="Bool">false</Property>
+						<Property Name="SupportDownload" Type="Bool">true</Property>
+						<Property Name="SupportResourceEstimation" Type="Bool">false</Property>
+						<Property Name="TargetName" Type="Str">FPGA Target</Property>
+						<Property Name="TopLevelVI" Type="Ref">/NI-cRIO-9033-Rack3/Chassis/FPGA Target/20-15-5-2.vi</Property>
+					</Item>
+					<Item Name="15-10-5-2" Type="{F4C5E96F-7410-48A5-BB87-3559BC9B167F}">
+						<Property Name="AllowEnableRemoval" Type="Bool">false</Property>
+						<Property Name="BuildSpecDecription" Type="Str"></Property>
+						<Property Name="BuildSpecName" Type="Str">15-10-5-2</Property>
+						<Property Name="Comp.BitfileName" Type="Str">project_FPGATarget_15-10-5-2_NHaW9zUVajo.lvbitx</Property>
+						<Property Name="Comp.CustomXilinxParameters" Type="Str"></Property>
+						<Property Name="Comp.MaxFanout" Type="Int">-1</Property>
+						<Property Name="Comp.RandomSeed" Type="Bool">false</Property>
+						<Property Name="Comp.Version.Build" Type="Int">0</Property>
+						<Property Name="Comp.Version.Fix" Type="Int">0</Property>
+						<Property Name="Comp.Version.Major" Type="Int">1</Property>
+						<Property Name="Comp.Version.Minor" Type="Int">0</Property>
+						<Property Name="Comp.VersionAutoIncrement" Type="Bool">false</Property>
+						<Property Name="Comp.Vivado.EnableMultiThreading" Type="Bool">true</Property>
+						<Property Name="Comp.Vivado.OptDirective" Type="Str"></Property>
+						<Property Name="Comp.Vivado.PhysOptDirective" Type="Str"></Property>
+						<Property Name="Comp.Vivado.PlaceDirective" Type="Str"></Property>
+						<Property Name="Comp.Vivado.RouteDirective" Type="Str"></Property>
+						<Property Name="Comp.Vivado.RunPowerOpt" Type="Bool">false</Property>
+						<Property Name="Comp.Vivado.Strategy" Type="Str">Default</Property>
+						<Property Name="Comp.Xilinx.DesignStrategy" Type="Str">balanced</Property>
+						<Property Name="Comp.Xilinx.MapEffort" Type="Str">default(noTiming)</Property>
+						<Property Name="Comp.Xilinx.ParEffort" Type="Str">standard</Property>
+						<Property Name="Comp.Xilinx.SynthEffort" Type="Str">normal</Property>
+						<Property Name="Comp.Xilinx.SynthGoal" Type="Str">speed</Property>
+						<Property Name="Comp.Xilinx.UseRecommended" Type="Bool">true</Property>
+						<Property Name="DefaultBuildSpec" Type="Bool">true</Property>
+						<Property Name="DestinationDirectory" Type="Path">FPGA Bitfiles</Property>
+						<Property Name="ProjectPath" Type="Path">/C/Users/TYU/Documents/GitHub/Paper-2026-Ultra-High-rate-State-Estimation/FPGA Implementation/Streaming-IP/V0.5.2/Project.lvproj</Property>
+						<Property Name="RelativePath" Type="Bool">true</Property>
+						<Property Name="RunWhenLoaded" Type="Bool">false</Property>
+						<Property Name="SupportDownload" Type="Bool">true</Property>
+						<Property Name="SupportResourceEstimation" Type="Bool">false</Property>
+						<Property Name="TargetName" Type="Str">FPGA Target</Property>
+						<Property Name="TopLevelVI" Type="Ref">/NI-cRIO-9033-Rack3/Chassis/FPGA Target/15-10-5-2.vi</Property>
+					</Item>
+					<Item Name="15-5-5-2" Type="{F4C5E96F-7410-48A5-BB87-3559BC9B167F}">
+						<Property Name="AllowEnableRemoval" Type="Bool">false</Property>
+						<Property Name="BuildSpecDecription" Type="Str"></Property>
+						<Property Name="BuildSpecName" Type="Str">15-5-5-2</Property>
+						<Property Name="Comp.BitfileName" Type="Str">project_FPGATarget_15-5-5-2_4OHUdTl8JFk.lvbitx</Property>
+						<Property Name="Comp.CustomXilinxParameters" Type="Str"></Property>
+						<Property Name="Comp.MaxFanout" Type="Int">-1</Property>
+						<Property Name="Comp.RandomSeed" Type="Bool">false</Property>
+						<Property Name="Comp.Version.Build" Type="Int">0</Property>
+						<Property Name="Comp.Version.Fix" Type="Int">0</Property>
+						<Property Name="Comp.Version.Major" Type="Int">1</Property>
+						<Property Name="Comp.Version.Minor" Type="Int">0</Property>
+						<Property Name="Comp.VersionAutoIncrement" Type="Bool">false</Property>
+						<Property Name="Comp.Vivado.EnableMultiThreading" Type="Bool">true</Property>
+						<Property Name="Comp.Vivado.OptDirective" Type="Str"></Property>
+						<Property Name="Comp.Vivado.PhysOptDirective" Type="Str"></Property>
+						<Property Name="Comp.Vivado.PlaceDirective" Type="Str"></Property>
+						<Property Name="Comp.Vivado.RouteDirective" Type="Str"></Property>
+						<Property Name="Comp.Vivado.RunPowerOpt" Type="Bool">false</Property>
+						<Property Name="Comp.Vivado.Strategy" Type="Str">Default</Property>
+						<Property Name="Comp.Xilinx.DesignStrategy" Type="Str">balanced</Property>
+						<Property Name="Comp.Xilinx.MapEffort" Type="Str">default(noTiming)</Property>
+						<Property Name="Comp.Xilinx.ParEffort" Type="Str">standard</Property>
+						<Property Name="Comp.Xilinx.SynthEffort" Type="Str">normal</Property>
+						<Property Name="Comp.Xilinx.SynthGoal" Type="Str">speed</Property>
+						<Property Name="Comp.Xilinx.UseRecommended" Type="Bool">true</Property>
+						<Property Name="DefaultBuildSpec" Type="Bool">true</Property>
+						<Property Name="DestinationDirectory" Type="Path">FPGA Bitfiles</Property>
+						<Property Name="ProjectPath" Type="Path">/C/Users/TYU/Documents/GitHub/Paper-2026-Ultra-High-rate-State-Estimation/FPGA Implementation/Streaming-IP/V0.5.2/Project.lvproj</Property>
+						<Property Name="RelativePath" Type="Bool">true</Property>
+						<Property Name="RunWhenLoaded" Type="Bool">false</Property>
+						<Property Name="SupportDownload" Type="Bool">true</Property>
+						<Property Name="SupportResourceEstimation" Type="Bool">false</Property>
+						<Property Name="TargetName" Type="Str">FPGA Target</Property>
+						<Property Name="TopLevelVI" Type="Ref">/NI-cRIO-9033-Rack3/Chassis/FPGA Target/15-5-5-2.vi</Property>
 					</Item>
 				</Item>
 			</Item>
